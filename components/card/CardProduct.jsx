@@ -13,6 +13,7 @@ export default class CardProduct extends Component {
           {/* <img src={product1} alt="photo product" /> */}
           <Image
             src={product1}
+            alt="photo"
             object-fit="contain"
           />
           <div className="m-2 flex flex-col gap-2">

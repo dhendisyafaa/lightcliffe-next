@@ -12,6 +12,7 @@ const KeranjangItem = () => {
             <div className="m-3 p-3 shadow-md">
                 <div className="flex gap-2 mb-3">
                     <Image
+                        alt="photo"
                         src={checkbox}
                     />
                     <div className='leading-4 text-sm'>
@@ -25,6 +26,7 @@ const KeranjangItem = () => {
             <div className="m-3 p-3 shadow-md">
                 <div className="flex gap-2 mb-3">
                     <Image
+                        alt="photo"
                         src={checkbox}
                     />
                     <div className='leading-4 text-sm'>

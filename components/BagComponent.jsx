@@ -9,7 +9,7 @@ export default class BagComponent extends Component {
       <Link href="/bag">
         <Image
           src={BagIcon}
-          alt="" />
+          alt="photo" />
       </Link>
     )
   }

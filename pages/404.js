@@ -6,7 +6,7 @@ import leafRight from '../public/leaf right.svg'
 import reading from '../public/reading.svg'
 import { useRouter } from 'next/router'
 
-const notFound = () => {
+const NotFound = () => {
 
   const router = useRouter();
 
@@ -19,22 +19,26 @@ const notFound = () => {
   return (
     <div className='flex flex-col justify-center items-center w-full h-screen relative overflow-x-hidden'>
         <Image
+          alt="photo"
           src={icon}
         />
         <p className='text-accent text-4xl font-medium'>404</p>
         <p className='text-accent text-2xl font-medium'>PAGE NOT FOUND</p>
         <div className='absolute left-0'>
           <Image
+            alt="photo"
             src={leafLeft}
           />
         </div>
         <div className='absolute right-0'>
           <Image
+            alt="photo"
             src={leafRight}
           />
         </div>
         <div className='absolute bottom-0 right-0 lg:right-4 lg:scale-x-110'>
           <Image
+            alt="photo"
             src={reading}
           />
         </div>
@@ -42,4 +46,4 @@ const notFound = () => {
   )
 }
 
-export default notFound
+export default NotFound

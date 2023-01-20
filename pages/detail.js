@@ -16,6 +16,7 @@ const detail = () => {
           <Image
             src={imgcr}
             className='h-full'
+            alt="photo"
           />
         </div>
         <div className='absolute bottom-4 left-3 flex gap-1 mt-2.5'>
@@ -61,6 +62,7 @@ const detail = () => {
             <div className='flex gap-2 items-center'>
               <Image
                 src={avatar}
+                alt="photo"
                 className="rounded-full h-[45px] w-[45px]"
               />
               <div className='leading-4 text-sm'>
@@ -76,6 +78,7 @@ const detail = () => {
       <div className="grid grid-cols-[10%_auto_auto] gap-1 px-3 fixed bottom-0 items-center w-full py-4 rounded-t-lg bg-white shadow-[0_30px_30px_20px_rgba(0,0,0,1)] z-30">
         <Image
           src={chat}
+          alt="photo"
         />
         <button type="" className='text-accent border-2 border-accent rounded-lg text-[10px] px-3 py-[5px] text-sm font-semibold'>Beli Sekarang</button>
         <button type="" className='bg-accent border-none text-white rounded-lg text-[10px] px-3 py-[5px] text-sm font-semibold'>+ Keranjang</button>

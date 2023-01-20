@@ -11,6 +11,7 @@ const HeaderDetailComponent = () => {
     <div className="bg-accent w-full h-[8vh] px-2 flex justify-end items-center gap-1">
         <Link href="/">
           <Image
+            alt="photo"
             src={Back}
           />
         </Link>
@@ -20,11 +21,13 @@ const HeaderDetailComponent = () => {
         <div className='flex gap-2 mx-2'>
           <Link href="/">
             <Image
+              alt="photo"
               src={Bag}
             />
           </Link>
           <Link href="/">
             <Image
+              alt="photo"
               src={Profile}
             />
           </Link>

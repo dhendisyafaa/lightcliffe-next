@@ -10,9 +10,11 @@ const ProdukKeranjang = () => {
         <>
             <div className="flex gap-2">
                 <Image
+                    alt="photo"
                     src={checkbox}
                 />
                 <Image
+                    alt="photo"
                     src={produk}
                     className="w-[75px] h-[75px] rounded-lg ml-2"
                 />
@@ -23,10 +25,12 @@ const ProdukKeranjang = () => {
             </div>
             <div className="flex justify-end gap-3">
                 <Image
+                    alt="photo"
                     src={min}
                 />
                 <p>1</p>
                 <Image
+                    alt="photo"
                     src={plus}
                 />
             </div>

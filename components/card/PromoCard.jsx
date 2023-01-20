@@ -11,6 +11,7 @@ export default class PromoCard extends Component {
       <div className='rounded-lg w-full overflow-hidden shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)]'>
         <div className="relative">
           <Image
+          alt="photo"
            src={product1}
           />
           <div className="absolute top-0 z-30 text-white rounded-br-lg bg-accent font-semibold text-xs px-2 py-1">{promoPercent}</div>
@@ -21,12 +22,14 @@ export default class PromoCard extends Component {
             <div className="flex gap-2">
                 <div className="flex gap-1 items-center">
                     <Image
+                    alt="photo"
                      src={release}
                      />
                     <p className='text-[8px]'>{releaseDate}</p>
                 </div>
                 <div className="flex gap-1 items-center">
                     <Image
+                    alt="photo"
                      src={author}
                     />
                     <p className='text-[8px]'>{authorName}</p>
