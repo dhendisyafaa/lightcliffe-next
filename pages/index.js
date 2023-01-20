@@ -86,7 +86,7 @@ export default class index extends Component {
             />
             <div className="flex gap-3 mt-5 mb-40 overflow-x-scroll scrollbar-hide py-3 px-4 bg-[#e65b8038] rounded-lg">
               {this.navLink.map(({ nameProduct, priceProduct, releaseDate, authorName }, index) =>
-                <CardProduct nameProduct={nameProduct} priceProduct={priceProduct} releaseDate={releaseDate} authorName={authorName} />
+                <CardProduct nameProduct={nameProduct} priceProduct={priceProduct} releaseDate={releaseDate} authorName={authorName} key={index}/>
               )}
             </div>
           </div>

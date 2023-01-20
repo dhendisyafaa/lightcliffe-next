@@ -53,7 +53,7 @@ export default class viewall extends Component {
         <HeaderDetailComponent />
         <div className='my-6 flex flex-wrap justify-center gap-3'>
           {this.navLink.map(({ nameProduct, priceProduct, releaseDate, authorName }, index) =>
-            <CardProduct nameProduct={nameProduct} priceProduct={priceProduct} releaseDate={releaseDate} authorName={authorName} />
+            <CardProduct nameProduct={nameProduct} priceProduct={priceProduct} releaseDate={releaseDate} authorName={authorName} key={index}/>
           )}
         </div>
       </>
