@@ -9,7 +9,7 @@ export default class CardProduct extends Component {
     const { nameProduct, priceProduct, releaseDate, authorName } = this.props
     return (
       <Link href="/detail">
-        <div className='w-[38vw] sm:w-[28vw] md:w-[20vw] lg:w-[18vw] rounded-lg overflow-hidden shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] bg-white min-h-full'>
+        <div className='mx-auto w-[38vw] sm:w-[28vw] md:w-[20vw] lg:w-[18vw] rounded-lg overflow-hidden shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] bg-white min-h-full'>
           {/* <img src={product1} alt="photo product" /> */}
           <Image
             src={product1}
