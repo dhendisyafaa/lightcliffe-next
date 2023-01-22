@@ -6,7 +6,7 @@ import BagIcon from '../public/icon/bag.svg'
 export default class BagComponent extends Component {
   render() {
     return (
-      <Link href="/bag">
+      <Link href="/keranjang">
         <Image
           src={BagIcon}
           alt="photo" />
